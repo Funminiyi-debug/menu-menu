@@ -28,13 +28,22 @@
   color: white;
 }
 
-.categories {
-  margin: 0 auto;
-}
-
 .banner-area {
   background-image: url(../images/market.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
+}
+
+/* breakpoints  */
+
+@media (max-width: 768px) {
+  p,
+  button {
+    font-size: 0.8rem;
+  }
+
+  .banner-area {
+    height: 60vh;
+  }
 }

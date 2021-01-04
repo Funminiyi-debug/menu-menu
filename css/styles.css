@@ -11,6 +11,10 @@
   padding: 10px;
 }
 
+.font-weight-bold {
+  font-weight: bolder;
+}
+
 .navbar {
   margin-top: 2%;
 }
@@ -39,7 +43,7 @@
 
 @media (max-width: 768px) {
   p,
-  button {
+  button.btn {
     font-size: 0.8rem;
   }
 

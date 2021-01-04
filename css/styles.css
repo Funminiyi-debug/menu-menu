@@ -1,0 +1,40 @@
+.menu-area {
+  position: static;
+}
+
+.mega-area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 10px;
+}
+
+.navbar {
+  margin-top: 2%;
+}
+
+.mega-area p {
+  padding: 5px;
+}
+
+.mega-area h5 {
+  font-family: Cabin;
+}
+
+.mega-area p:hover {
+  background-color: rgb(51, 51, 56);
+  color: white;
+}
+
+.categories {
+  margin: 0 auto;
+}
+
+.banner-area {
+  background-image: url(../images/market.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
